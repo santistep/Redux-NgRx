@@ -17,6 +17,7 @@ import { NietoComponent } from './contador/nieto/nieto.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    //---- Store Module Import & Global State Definition ----//
     StoreModule.forRoot({ contador: contadorReducer }),
     //---- Redux DevTools Config -----//
     StoreDevtoolsModule.instrument({
